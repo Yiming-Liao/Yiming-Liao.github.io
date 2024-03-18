@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    transition: .2s ;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    color:#333;
+}
+
+body{   
+    height:500vh;
+    background:rgba(242,239,235);
+}
+
+
+.div-opening{ /*開場*/
+    background:#AAA;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ;
+    animation: opening linear both;
+    animation-timeline: scroll();
+    animation-range:10px 20vh;
+    z-index: 10;
+    margin-bottom:-60vh;
+}
+@keyframes opening {
+  0% { transform:translateY(0px); }
+  70% { transform:translateY(-10vh); opacity:0;}
+  80% {transform:translateY(-20vh); }
+  90% { transform:translateY(-30vh); }
+  100% { transform:translateY(-40vh);opacity:0; }
+}
+
+nav{
+    position:fixed;
+    top:0;
+}
+nav div{ /*nav bar*/
+    color:#EEE;
+    width:100vw;
+    display:flex;
+    justify-content:end;
+    align-items: center;
+    background:rgba(60,64,58);
+    animation: nav linear both;
+    animation-timeline: scroll();
+    animation-range:10vh 30vh;
+    margin-bottom:50vh;
+    opacity:0;
+    transition: 1s ;
+    padding-right: 30px;
+}
+  @keyframes nav{
+    0% { height:30px; opacity:0;}
+    20% { height:35px; opacity:0.6;}
+    80% { height:50px; opacity:0.7;}
+    90% { height:55px; opacity:0.8;}
+    100% { height:60px; opacity:0.8;}
+  }
+  nav a{
+    text-decoration: none;
+    color:rgba(217,201,186);
+    width:60px;
+  }
+  nav p{
+    color:rgba(217,201,186);
+    position:fixed;
+    left:30px;
+  }
+
+
+  section{
+    height:50vh;
+    padding:50px;
+  }
+
+  .div-intro{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+  }
+  .p-hello{
+    font-size:1.2rem;
+    margin:30px;
+}
+  .div-intro h1{
+    font-size:4rem;
+    color:#3C403A;
+  }
+  .div-intro span{
+    color:rgba(60,64,58,0.2)
+  }
+  .p-intro{
+    font-size:1.8rem;
+    margin:30px auto 0 auto;
+  }
+  .p-intro2{
+    text-align:justify;
+    font-size:1rem;
+    margin-top:35px;
+    width:80vw;
+  }
