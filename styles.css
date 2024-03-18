@@ -105,8 +105,8 @@ nav div{ /*nav bar*/
     margin:30px auto 0 auto;
   }
   .p-intro2{
-    text-align:justify;
     font-size:1rem;
     margin-top:35px;
+    margin-bottom:100px;
     width:80vw;
   }
