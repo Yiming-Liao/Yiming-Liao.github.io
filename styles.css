@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     scroll-behavior: smooth;
-    transition: .2s ;
+    transition: .4s ;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight:700;
@@ -12,24 +12,30 @@
     color:#333;
 }
 
+html{
+  display:flex;
+  justify-content:center ;
+  align-items: center;
+}
 body{   
-    height:500vh;
+    width:60vw;
+    height:300vh;
     background:rgba(242,239,235);
 }
 
-
 .div-opening{ /*開場*/
+    position:absolute;
+    left:0;
     background:#AAA;
+    width:100vw;
     height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
-    transition: 1s ;
     animation: opening linear both;
     animation-timeline: scroll();
     animation-range:10px 20vh;
     z-index: 10;
-    margin-bottom:-60vh;
 }
 @keyframes opening {
   0% { transform:translateY(0px); }
@@ -42,6 +48,8 @@ body{
 nav{
     position:fixed;
     top:0;
+    left:0;
+    z-index:9999;
 }
 nav div{ /*nav bar*/
     color:#EEE;
@@ -54,8 +62,7 @@ nav div{ /*nav bar*/
     animation-timeline: scroll();
     animation-range:10vh 30vh;
     margin-bottom:50vh;
-    opacity:0;
-    transition: 1s ;
+    opacity:0;;
     padding-right: 30px;
 }
   @keyframes nav{
@@ -83,17 +90,20 @@ nav div{ /*nav bar*/
   }
 
   .div-intro{
+    margin-top:60vh;
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     height:50vh;
+    text-align:center;
   }
   .p-hello{
     font-size:1.2rem;
     margin:30px;
 }
   .div-intro h1{
+    width:50vw;
     font-size:4rem;
     color:#3C403A;
   }
@@ -101,6 +111,7 @@ nav div{ /*nav bar*/
     color:rgba(60,64,58,0.2)
   }
   .p-intro{
+    width:50vw;
     font-size:1.8rem;
     margin:30px auto 0 auto;
   }
@@ -108,5 +119,66 @@ nav div{ /*nav bar*/
     font-size:1rem;
     margin-top:35px;
     margin-bottom:100px;
-    width:80vw;
+    width:50vw;
+  }
+
+  section h1{
+    font-size:1.8rem;
+    margin:20px;
+  }
+  section h3{
+  margin:20px;
+}
+
+
+
+  /*橫向移動*/
+  @keyframes move {
+    to {
+      transform: translateX(calc(-100% + 100vw));
+      left: 0;
+    }
+  }
+  .section-projects {
+    width: unset;
+    height: 500vh;
+    view-timeline-name: --section-pin;
+    view-timeline-axis: y;
+  }
+  .pin-wrap-sticky {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin-left:-10vw;
+  }
+  .pin-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    width: 300vw;
+    height: 100vh;
+    animation: linear move forwards;
+    animation-timeline: --section-pin;
+    animation-range: contain 0% contain 100%;
+  }
+  
+  .div-scroll {
+    min-width:500px;
+    width: 45vw;
+    max-width:400px;
+    height: 80vh;
+    padding:20px;
+    border-radius:10px;
+    background:rgb(216, 211, 203);;
+    display:flex;
+    flex-direction:column;
+  }
+   .ds2{
+    max-width:650px;
+  }
+  .pin-wrap a{
+    margin:0 0 10px 5px;
   }
