@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/freeCodeCamp-projects/react-test/static/css/main.12abbbc2.css",
-    "main.js": "/freeCodeCamp-projects/react-test/static/js/main.fc14dad3.js",
+    "main.js": "/freeCodeCamp-projects/react-test/static/js/main.055965b4.js",
     "static/js/453.ed3810f9.chunk.js": "/freeCodeCamp-projects/react-test/static/js/453.ed3810f9.chunk.js",
     "static/media/1.jpg": "/freeCodeCamp-projects/react-test/static/media/1.6b186433fd22722c9ee9.jpg",
     "static/media/2.jpg": "/freeCodeCamp-projects/react-test/static/media/2.3196970614ce13a7b9a0.jpg",
@@ -10,11 +10,11 @@
     "static/media/avatar.jpg": "/freeCodeCamp-projects/react-test/static/media/avatar.c9dab92d22059ebb872c.jpg",
     "index.html": "/freeCodeCamp-projects/react-test/index.html",
     "main.12abbbc2.css.map": "/freeCodeCamp-projects/react-test/static/css/main.12abbbc2.css.map",
-    "main.fc14dad3.js.map": "/freeCodeCamp-projects/react-test/static/js/main.fc14dad3.js.map",
+    "main.055965b4.js.map": "/freeCodeCamp-projects/react-test/static/js/main.055965b4.js.map",
     "453.ed3810f9.chunk.js.map": "/freeCodeCamp-projects/react-test/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12abbbc2.css",
-    "static/js/main.fc14dad3.js"
+    "static/js/main.055965b4.js"
   ]
 }
