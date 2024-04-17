@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/works/clothes-app/static/css/main.71bd7f53.css",
-    "main.js": "/works/clothes-app/static/js/main.1665ae57.js",
+    "main.js": "/works/clothes-app/static/js/main.05476120.js",
     "static/js/453.f839a89c.chunk.js": "/works/clothes-app/static/js/453.f839a89c.chunk.js",
+    "static/media/shirt_baked.glb": "/works/clothes-app/static/media/shirt_baked.5de480216be014e1a377.glb",
+    "static/media/logo512.png": "/works/clothes-app/static/media/logo512.7cc463d58c50e071a3e0.png",
+    "static/media/threejs.png": "/works/clothes-app/static/media/threejs.c5a8259d217f637574e0.png",
     "index.html": "/works/clothes-app/index.html",
     "main.71bd7f53.css.map": "/works/clothes-app/static/css/main.71bd7f53.css.map",
-    "main.1665ae57.js.map": "/works/clothes-app/static/js/main.1665ae57.js.map",
+    "main.05476120.js.map": "/works/clothes-app/static/js/main.05476120.js.map",
     "453.f839a89c.chunk.js.map": "/works/clothes-app/static/js/453.f839a89c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71bd7f53.css",
-    "static/js/main.1665ae57.js"
+    "static/js/main.05476120.js"
   ]
 }
