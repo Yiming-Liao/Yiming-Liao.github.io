@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/works/athens-app/static/css/main.9e54a20a.css",
+    "main.js": "/works/athens-app/static/js/main.a407457c.js",
+    "static/js/453.074055e6.chunk.js": "/works/athens-app/static/js/453.074055e6.chunk.js",
+    "static/media/bg.png": "/works/athens-app/static/media/bg.3d94ab5a3a661f69fb1e.png",
+    "static/media/wiki.png": "/works/athens-app/static/media/wiki.60cab1900055baf43e53.png",
+    "static/media/p3.png": "/works/athens-app/static/media/p3.7b7c1f0ad0545c25fc79.png",
+    "static/media/p4.png": "/works/athens-app/static/media/p4.a531c219904f1fc3ff91.png",
+    "static/media/p5.png": "/works/athens-app/static/media/p5.d20c68723240188b309e.png",
+    "static/media/p2.png": "/works/athens-app/static/media/p2.5ddd6cd9be9fc52f962f.png",
+    "static/media/p1.png": "/works/athens-app/static/media/p1.567e68ed60ba9c5ead6e.png",
+    "index.html": "/works/athens-app/index.html",
+    "main.9e54a20a.css.map": "/works/athens-app/static/css/main.9e54a20a.css.map",
+    "main.a407457c.js.map": "/works/athens-app/static/js/main.a407457c.js.map",
+    "453.074055e6.chunk.js.map": "/works/athens-app/static/js/453.074055e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e54a20a.css",
+    "static/js/main.a407457c.js"
+  ]
+}
